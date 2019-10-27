@@ -5,14 +5,14 @@ import PageFooter from '../components/PageFooter';
 import SideBar from '../components/Sidebar/Index';
 import Scroll from '../components/Scroll';
 
-import pic2 from '../assets/images/project1.png';
-import pic3 from '../assets/images/calculator.png';
-import pic4 from '../assets/images/edison.png';
-import pic5 from '../assets/images/alarm.png';
-import pic6 from '../assets/images/imagination.png';
-import pic7 from '../assets/images/manager.png';
-import pic8 from '../assets/images/panorama.png';
-import pic9 from '../assets/images/renaissance.png'
+import pic2 from '../assets/images/p1.png';
+import pic3 from '../assets/images/ps2.png';
+import pic4 from '../assets/images/p4.png';
+import pic5 from '../assets/images/ps1.png';
+import pic6 from '../assets/images/p3.png';
+import pic7 from '../assets/images/p2.png';
+import pic8 from '../assets/images/about.png';
+import pic9 from '../assets/images/ps3.png'
 
 import icon1 from '../assets/img/js.jpg'
 import icon2 from '../assets/img/html.png'
