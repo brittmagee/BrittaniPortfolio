@@ -298,12 +298,13 @@
 		}
 	}
 
+
 /*Typying Effect*/
 .typewriter p {
 
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
+	border-right: .15em solid orange; /* The typwriter cursor */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: .15em; 
 	animation: 
@@ -312,40 +313,182 @@
 	  blink-caret .75s step-end ;
   }
 
+.typewriter p:nth-child(1) {
+	width: 42em;
+	-webkit-animation: type 6s steps(100, end);
+	animation: type 6s steps(100, end);
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
 .typewriter p:nth-child(2) {
+	width: 42em;
 	opacity: 0;
-	// overflow: hidden;
-	animation-delay: 4s;
-	// white-space: nowrap; /* Keeps the content on a single line */
+	-webkit-animation: type2 6s steps(100, end);
+	animation: type2 6s steps(100, end);
+	-webkit-animation-delay: 6s;
+	animation-delay: 6s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
   }
 .typewriter p:nth-child(3) {
+	width: 37em;
 	opacity: 0;
-	// overflow: hidden;
-	animation-delay: 8s;
-	// white-space: nowrap; /* Keeps the content on a single line */
+	-webkit-animation: type2 6s steps(100, end);
+	animation: type2 6s steps(100, end);
+	-webkit-animation-delay: 12s;
+	animation-delay: 12s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.typewriter p:nth-child(4) {
+	width: 39em;
+	opacity: 0;
+	-webkit-animation: type3 6s steps(100, end), blink .5s step-end infinite alternate;
+	animation: type3 6s steps(100, end), blink .5s step-end infinite alternate;
+	-webkit-animation-delay: 18s;
+	animation-delay: 18s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+  }
+  
+@keyframes type {
+	0% {
+	  width: 0;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  border: none;
+	}
+  }
+  
+  @-webkit-keyframes type {
+	0% {
+	  width: 0;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  border: none;
+	}
+  }
+  
+  @keyframes type2 {
+	0% {
+	  width: 0;
+	}
+	1% {
+	  opacity: 1;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  opacity: 1;
+	  border: none;
+	}
+  }
+  
+  @-webkit-keyframes type2 {
+	0% {
+	  width: 0;
+	}
+	1% {
+	  opacity: 1;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  opacity: 1;
+	  border: none;
+	}
   }
 
-.typewriter p:nth-child(4) {
-	opacity: 0;
-// overflow: hidden;
-animation-delay: 12s;
-// white-space: nowrap; /* Keeps the content on a single line */
-}
-  
-/* The typing effect */
-@keyframes typing {
-	from { width: 0;
-		opacity: 1}
-	to { width: 100%;
-		opacity: 1;
+  @keyframes type3 {
+	0% {
+	  width: 0;
 	}
-}
+	1% {
+	  opacity: 1;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  opacity: 1;
+	  border: none;
+	}
+  }
+  
+  @-webkit-keyframes type3 {
+	0% {
+	  width: 0;
+	}
+	1% {
+	  opacity: 1;
+	}
+	99.9% {
+	  border-right: .15em solid orange;
+	}
+	100% {
+	  opacity: 1;
+	  border: none;
+	}
+  }
+  
+  @keyframes type4 {
+	0% {
+	  width: 0;
+	}
+	1% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  @-webkit-keyframes type4 {
+	0% {
+	  width: 0;
+	}
+	1% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes blink {
+	50% {
+	  border-color: transparent;
+	}
+  }
+  @-webkit-keyframes blink {
+	50% {
+	  border-color: tranparent;
+	}
+  }
+// /* The typing effect */
+// @keyframes typing {
+// 	from { width: 0;
+// 		opacity: 1}
+// 	to { width: 100%;
+// 		opacity: 1;
+// 		// overflow: visible
+// 	}
+// }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: orange; }
-}
+// /* The typewriter cursor effect */
+// @keyframes blink-caret {
+// 	from, to { border-color: transparent }
+// 	50% { border-color: orange; }
+// }
 
 /*About Me*/
 .about{

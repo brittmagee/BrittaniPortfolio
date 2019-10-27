@@ -67,6 +67,7 @@ const IndexPage = () => (
             <p>nonprofits and higher education, I thrive in diverse, goal-oriented </p>
             <p>environments. Please click the button below to see my latest projects. </p>
           </div>
+
           </header>
           <footer>
             <Scroll type="id" element={'portfolio'}>
