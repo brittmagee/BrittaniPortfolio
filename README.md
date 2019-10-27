@@ -2,7 +2,6 @@
 
 [Deployed Site](https://brittani-glynn-magee.netlify.com)
 
-```sh
 ### Site Features
 
 * Most recent projects
@@ -10,6 +9,9 @@
 * About Me
 * Links to socials
 * Ways to contact me
+
+```sh
+Last Update: 27 October 2019
 ```
 
 Gatsby Starter credited to: [Anubhav Srivastava](https://github.com/anubhavsrivastava/gatsby-starter-prologue).
