@@ -16,7 +16,7 @@
     "@hapi/topo": "^4.0.1",
     "bulma": "^0.8.0",
     "core-js": "^3.3.3",
-    "gatsby": "^2.17.3",
+    "gatsby": "^2.17.4",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-netlify-cms": "^4.1.25",
     "gatsby-plugin-offline": "^2.1.0",
