@@ -7,15 +7,15 @@ import Scroll from '../components/Scroll';
 
 import pic2 from '../assets/images/project1.png';
 import pic3 from '../assets/images/calculator.png';
-import pic4 from '../assets/images/Edison.png';
+import pic4 from '../assets/images/edison.png';
 import pic5 from '../assets/images/alarm.png';
-import pic6 from '../assets/images/Imagination.png';
-import pic7 from '../assets/images/Manager.png';
-import pic8 from '../assets/images/Panorama.png';
-import pic9 from '../assets/images/Renaissance.png'
+import pic6 from '../assets/images/imagination.png';
+import pic7 from '../assets/images/manager.png';
+import pic8 from '../assets/images/panorama.png';
+import pic9 from '../assets/images/renaissance.png'
 
-import icon1 from '../assets/img/JS.jpg'
-import icon2 from '../assets/img/HTML5.png'
+import icon1 from '../assets/img/js.jpg'
+import icon2 from '../assets/img/html.png'
 import icon3 from '../assets/img/css.jpg'
 import icon4 from '../assets/img/python.png'
 import icon5 from '../assets/img/react.png'
@@ -30,7 +30,7 @@ import icon13 from '../assets/img/heroku.png'
 import icon14 from '../assets/img/netlify.png'
 import icon15 from '../assets/img/materialui.png'
 import icon16 from '../assets/img/materialize.png'
-import icon17 from '../assets/img/Bulma.svg'
+import icon17 from '../assets/img/bulma.svg'
 import icon18 from '../assets/img/express.png'
 
 
