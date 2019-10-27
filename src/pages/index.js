@@ -14,7 +14,7 @@ import pic7 from '../assets/images/p2.png';
 import pic8 from '../assets/images/about.png';
 import pic9 from '../assets/images/ps3.png'
 
-import icon1 from '../assets/img/js.jpg'
+import icon1 from '../assets/img/JS.jpg'
 import icon2 from '../assets/img/html.png'
 import icon3 from '../assets/img/css.jpg'
 import icon4 from '../assets/img/python.png'
@@ -30,7 +30,7 @@ import icon13 from '../assets/img/heroku.png'
 import icon14 from '../assets/img/netlify.png'
 import icon15 from '../assets/img/materialui.png'
 import icon16 from '../assets/img/materialize.png'
-import icon17 from '../assets/img/bulma.svg'
+import icon17 from '../assets/img/Bulma.svg'
 import icon18 from '../assets/img/express.png'
 
 const sections = [
@@ -55,19 +55,14 @@ const IndexPage = () => (
               <br />
               {/* Software Engineer */}
             </h2>
+        <div className="typeContainer">
           <div className='typewriter'>
-            {/* <p>
-            I'm a creative Full-Stack Software Developer capable of delivering visually 
-           appealing, responsive applications. With a background in communications,
-            nonprofits and higher education, I thrive in diverse, goal-oriented 
-           environments. Please click the button below to see my latest projects. 
-            </p> */}
             <p>I'm a creative Full-Stack Software Developer capable of delivering visually </p>
             <p>appealing, responsive applications. With a background in communications, </p>
             <p>nonprofits and higher education, I thrive in diverse, goal-oriented </p>
             <p>environments. Please click the button below to see my latest projects. </p>
           </div>
-
+        </div>
           </header>
           <footer>
             <Scroll type="id" element={'portfolio'}>
