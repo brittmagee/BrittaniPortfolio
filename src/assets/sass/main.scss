@@ -287,7 +287,6 @@
 
 	section, article {
 		margin-bottom: 3em;
-
 		> :last-child,
 		> .container,
 		&:last-child {
@@ -346,6 +345,17 @@ animation-delay: 12s;
 @keyframes blink-caret {
 	from, to { border-color: transparent }
 	50% { border-color: orange; }
+}
+
+/*About Me*/
+.about{
+	padding: 10px
+}
+
+/*Fun Fact font*/
+
+.fun{
+	font-size: 13pt;
 }
 
 /*Icon*/

@@ -33,8 +33,6 @@ import icon16 from '../assets/img/materialize.png'
 import icon17 from '../assets/img/bulma.svg'
 import icon18 from '../assets/img/express.png'
 
-
-
 const sections = [
   { id: 'top', name:'Welcome', icon: 'fa-th' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-code' },
@@ -278,17 +276,27 @@ const IndexPage = () => (
           </header>
 
           <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
+            <img src={pic8} alt="Panorama | About Me" />
           </a>
 
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          <p className="about">
+          Hi! I'm Brittani, a burgeoning software engineer currently residing in Atlanta, GA. <br />
+          During my time as a Software Engineering Immersive Fellow at General Assembly - Atlanta, 
+          I developed a passion for front-end development and design. However, while I enjoy front-end development, 
+          my projects demonstrate my comfortability working with front and back-end software, such as Javacript, React, 
+          Node.js, MongoDB, SQL, etc. <br />
+          Regarding my approach to coding, I enjoy collaborating by hearing the different perspectives on how my team can best accomplish a task. 
+          I am artistic which enables me to envision the end product during the planning process. I also enjoy finding new ways to problem solve 
+          and make my code as efficient as possible. For me, coding is a new art form from which I can not only express myself but also create 
+          applications that positively impact the lives of others. <br />
+          <p><b>While I am primarily looking for <u>full-time and apprenticeship opportunities</u> in the <br /><i>San Francisco Bay Area</i> and <i>Atlanta</i>, I am also open to working in other cities.</b></p>
+          </p>
+          <h3>Fun Facts About Me</h3>
+          <p className="fun">~ I have traveled to 13 countries: China, Japan, Vietnam, Singapore, Myanmar (Burma), India, <br />Mauritius, South Africa, Ghana, Morocco, Spain, France, Israel/Palestine, and counting! <br />
+          ~ Since childhood, I have loved to read. The first book I remember enjoying was <br /><i>The Giraffe, the Pelly, and Me</i> by Roald Dahl.<br />
+          ~ I love attending Broadway musicals. <a href="https://wickedthemusical.com/" target="_blank"><i>Wicked</i></a> is my all-time favorite!<br />
+          ~ I am an artist; Pottery and acrylic painting are my mediums of choice. <br />
+          ~ I have a Yorkshire Terrier named Koda. (He was named after the little bear in Disney's <i>Brother Bear</i>).
           </p>
         </div>
       </section>
@@ -298,22 +306,16 @@ const IndexPage = () => (
           <header>
             <h2>Get In Touch</h2>
           </header>
-
-          <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
-          </p>
-
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/brittgmagee@gmail.com">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
               </div>
               <div className="col-6 col-12-mobile">
                 <input type="text" name="email" placeholder="Email" />
+              </div>
+              <div className="col-12 col-12-mobile">
+                <input type="text" name="subject" placeholder="Subject" />
               </div>
               <div className="col-12">
                 <textarea name="message" placeholder="Message" />

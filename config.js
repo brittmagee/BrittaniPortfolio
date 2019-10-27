@@ -33,7 +33,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:brittgmagee@gmail.com',
+      url: '#contact',
     },
   ],
 };

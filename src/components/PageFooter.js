@@ -4,12 +4,9 @@ export default function PageFooter() {
   return (
     <div id="footer">
       <ul className="copyright">
-        <li>&copy; Untitled. All rights reserved.</li>
+        <li>&copy; 2019 Brittani Glynn Magee</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
-        <li>
-          Demo Images: <a href="http://unsplash.com/">Unsplash</a>
+          Gatsby Starter credited to: <a href="https://github.com/anubhavsrivastava/gatsby-starter-prologue">Anubhav Srivastava</a>
         </li>
       </ul>
     </div>
