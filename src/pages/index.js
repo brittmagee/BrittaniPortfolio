@@ -138,7 +138,7 @@ const IndexPage = () => (
             </div>
             <div className="col-4 col-12-mobile">
             <article className="item">
-                <a href="https://brittmagee.github.io/SolarSequence-SEI23-Project1/" target="_blank" rel="noopener noreferrer" className="image fit">
+                <a href="https://solar-sequence.netlify.com/" target="_blank" rel="noopener noreferrer" className="image fit">
                   <img src={pic2} alt="Solar Sequence" />
                 </a>
                 <header>
