@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [`gatsby-plugin-material-ui`],
   siteTitle: 'Brittani Glynn Magee', // <title>
   manifestName: 'Prologue',
   manifestShortName: 'Landing', // max 12 characters
