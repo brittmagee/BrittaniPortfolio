@@ -39,6 +39,7 @@ import icon15 from '../assets/img/materialui.png'
 import icon16 from '../assets/img/materialize.png'
 import icon17 from '../assets/img/Bulma.svg'
 import icon18 from '../assets/img/express.png'
+import icon19 from '../assets/img/angular.png'
 
 const sections = [
   { id: 'top', name:'Welcome', icon: 'fa-th' },
@@ -270,6 +271,10 @@ const IndexPage = () => (
                           <h1 className="skillsHeader">React.js</h1>
                         </div>
                         <div className="skillsDiv">
+                          <img src={icon19} className="iconImg" alt="Angular"></img>
+                          <h1 className="skillsHeader">Angular.js</h1>
+                        </div>
+                        <div className="skillsDiv">
                           <img src={icon6} className="iconImg" alt="Node"></img>
                           <h1 className="skillsHeader">Node.js</h1>
                         </div>
@@ -377,7 +382,7 @@ const IndexPage = () => (
           </a>
 
           <p className="about">
-          Hi! I'm Brittani, a burgeoning software engineer currently residing in Atlanta, GA. <br />
+          Hi! I'm Brittani, a software engineer currently residing in Atlanta, GA. <br />
           During my time as a Software Engineering Immersive Fellow at General Assembly - Atlanta, 
           I developed a passion for front-end development and design. However, while I enjoy front-end development, 
           my projects demonstrate my comfortability working with front and back-end software, such as Javacript, React, 
@@ -386,7 +391,7 @@ const IndexPage = () => (
           I am artistic which enables me to envision the end product during the planning process. I also enjoy finding new ways to problem solve 
           and make my code as efficient as possible. For me, coding is a new art form from which I can not only express myself but also create 
           applications that positively impact the lives of others. <br />
-          <p><b>While I am primarily looking for <u>full-time and apprenticeship opportunities</u> in the <br /><i>San Francisco Bay Area</i> and <i>Atlanta</i>, I am also open to working in other cities.</b></p>
+          <p><b>While I am primarily looking for <u>full-time opportunities</u> in the <br /><i>Atlanta</i> and <i>San Francisco Bay Area</i>, I am also open to working in other cities.</b></p>
           </p>
           <h3>Fun Facts About Me</h3>
           <p className="fun">~ I have traveled to 13 countries: China, Japan, Vietnam, Singapore, Myanmar (Burma), India, <br />Mauritius, South Africa, Ghana, Morocco, Spain, France, Israel/Palestine, and counting! <br />
@@ -403,13 +408,13 @@ const IndexPage = () => (
           <header>
             <h2>Get In Touch</h2>
           </header>
-          <form method="post" action="https://formspree.io/brittgmagee@gmail.com">
+          <form method="post" action="https://formspree.io/f/brittgmagee@gmail.com" method="POST">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
+                <input type="email" name="_replyto" placeholder="Email" />
               </div>
               <div className="col-12 col-12-mobile">
                 <input type="text" name="subject" placeholder="Subject" />

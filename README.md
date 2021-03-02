@@ -11,7 +11,7 @@
 * Ways to contact me
 
 ```sh
-Last Update: 27 October 2019
+Last Update: 2 March 2021
 ```
 
 Gatsby Starter credited to: [Anubhav Srivastava](https://github.com/anubhavsrivastava/gatsby-starter-prologue).

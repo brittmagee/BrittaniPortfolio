@@ -9,7 +9,7 @@ export default function PageFooter() {
   return (
     <div id="footer">
       <ul className="copyright">
-        <li>&copy; 2019 Brittani Glynn Magee</li>
+        <li>&copy; 2021 Brittani Glynn Magee</li>
       </ul>
       <div id='footerLinks'>
         <a href='https://www.linkedin.com/in/brittanimagee/' target="_blank" rel="noopener noreferrer" >
