@@ -382,7 +382,9 @@ const IndexPage = () => (
           </a>
 
           <p className="about">
-          Hi! I'm Brittani, a software engineer currently residing in Atlanta, GA. <br />
+          Hi! I'm Brittani, a software developer currently residing in Atlanta, GA. <br />
+          Software Developer at Fathom Technology Partners. Having had a background in communications, higher education and nonprofits, 
+          I made the switch into the tech industry upon completing the General Assembly Software Engineering Immersive program. 
           During my time as a Software Engineering Immersive Fellow at General Assembly - Atlanta, 
           I developed a passion for front-end development and design. However, while I enjoy front-end development, 
           my projects demonstrate my comfortability working with front and back-end software, such as Javacript, React, 
@@ -408,7 +410,8 @@ const IndexPage = () => (
           <header>
             <h2>Get In Touch</h2>
           </header>
-          <form method="post" action="https://formspree.io/f/brittgmagee@gmail.com" method="POST">
+          <form method="post" action="https://formspree.io/f/mbjpvqgq" method="POST" target="_blank">
+          {/* <form method="post" action="https://formspree.io/f/brittgmagee@gmail.com" method="POST"> */}
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -423,7 +426,7 @@ const IndexPage = () => (
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="Send Message"/>
               </div>
             </div>
           </form>
