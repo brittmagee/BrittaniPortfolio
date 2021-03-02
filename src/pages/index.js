@@ -383,7 +383,7 @@ const IndexPage = () => (
 
           <p className="about">
           Hi! I'm Brittani, a software developer currently residing in Atlanta, GA. <br />
-          Software Developer at Fathom Technology Partners. Having had a background in communications, higher education and nonprofits, 
+          Having had a background in communications, higher education and nonprofits, 
           I made the switch into the tech industry upon completing the General Assembly Software Engineering Immersive program. 
           During my time as a Software Engineering Immersive Fellow at General Assembly - Atlanta, 
           I developed a passion for front-end development and design. However, while I enjoy front-end development, 
@@ -393,7 +393,7 @@ const IndexPage = () => (
           I am artistic which enables me to envision the end product during the planning process. I also enjoy finding new ways to problem solve 
           and make my code as efficient as possible. For me, coding is a new art form from which I can not only express myself but also create 
           applications that positively impact the lives of others. <br />
-          <p><b>While I am primarily looking for <u>full-time opportunities</u> in the <br /><i>Atlanta</i> and <i>San Francisco Bay Area</i>, I am also open to working in other cities.</b></p>
+          <p><b>While I am primarily looking for <u>full-time opportunities</u> in the <br /><i>Atlanta</i> and <i>San Diego</i>, I am also open to working in other cities.</b></p>
           </p>
           <h3>Fun Facts About Me</h3>
           <p className="fun">~ I have traveled to 13 countries: China, Japan, Vietnam, Singapore, Myanmar (Burma), India, <br />Mauritius, South Africa, Ghana, Morocco, Spain, France, Israel/Palestine, and counting! <br />
